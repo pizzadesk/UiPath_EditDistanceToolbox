@@ -1,0 +1,69 @@
+{
+  "DisplayName": "Levenshtein_Distance",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "String1",
+      "DisplayName": "String1",
+      "Category": null,
+      "Tooltip": "First input string",
+      "Placeholder": "book",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "String2",
+      "DisplayName": "String2",
+      "Category": null,
+      "Tooltip": "Second input string",
+      "Placeholder": "BaCK",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LevenshteinDistance",
+      "DisplayName": "LevenshteinDistance",
+      "Category": null,
+      "Tooltip": "Numeric value of Levenshtein Distance",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "IsSimilar",
+      "DisplayName": "IsSimilar",
+      "Category": null,
+      "Tooltip": "Output True/False value based on Levenshtein Distance calculation, taking MinimumSimilarity into account",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "MinimumSimilarity",
+      "DisplayName": "MinimumSimilarity",
+      "Category": null,
+      "Tooltip": "Minimum accepted similarity between 2 strings on a range of 0-100 (0 being similarity not important, and 100 being desire maximum similarity), will be taken into account for calculating IsSimilar boolean out-argument",
+      "Placeholder": "10",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hamming_Distance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DissimilarSymbolStringFromList&Sequence_1",
+        "DissimilarSymbolList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "String1",
+        "String2",
+        "HDistance"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Longest_Common_Subsequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "String1",
+        "String2",
+        "LCSString",
+        "LCSLength"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Jaro_Winkler_Distance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DissimilarSymbolStringFromList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "String1",
+        "String2",
+        "DissimilarSymbolList",
+        "JWDistance"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Levenshtein_Distance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Precision",
+        "String1",
+        "String2",
+        "LevenshteinDistance"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Tags": [
+    {
+      "Key": "Library"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": false
+}

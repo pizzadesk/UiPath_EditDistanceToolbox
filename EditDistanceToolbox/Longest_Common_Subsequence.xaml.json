@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Levenshtein_Distance - Copy (1)",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "String1",
+      "DisplayName": "String1",
+      "Category": null,
+      "Tooltip": "First input string. ",
+      "Placeholder": "Kitten",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "String2",
+      "DisplayName": "String2",
+      "Category": null,
+      "Tooltip": "Second input string.",
+      "Placeholder": "Sitting",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LCSString",
+      "DisplayName": "LCSString",
+      "Category": null,
+      "Tooltip": "The longest part output as string that is identical between two input strings.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "LCSLength",
+      "DisplayName": "LCSLength",
+      "Category": null,
+      "Tooltip": "Length of the string that is identical in both input strings.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
