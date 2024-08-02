@@ -56,10 +56,26 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "Precision",
-        "String1",
         "String2",
+        "MinimumSimilarity",
+        "IsSimilar",
+        "String1",
         "LevenshteinDistance"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Jaro_Distance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DissimilarSymbolStringFromList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "String2",
+        "String1",
+        "DissimilarSymbolList",
+        "JDistance"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
