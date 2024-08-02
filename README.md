@@ -1,0 +1,2 @@
+# UiPath_EditDistanceToolbox
+ String Distance Calculations: Leverage a library of workflows utilizing Invoke Code activities to perform four string distance calculations: Levenshtein Distance, Hamming Distance, Longest Common Subsequence (LCS), and Jaro Distance. Each workflow accepts two input strings and outputs the calculated distance or similarity score, ideal for data validation, error correction, and duplicate detection.
