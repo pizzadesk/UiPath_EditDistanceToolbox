@@ -6,45 +6,45 @@
         "Version": "24.3.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnet.signalr.client\\2.4.0\\lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.features\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll",
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.logging\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
-        "E:\\packages\\NuGet\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
-        "E:\\packages\\NuGet\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "E:\\packages\\NuGet\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "E:\\packages\\NuGet\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
-        "E:\\packages\\NuGet\\system.activities.viewmodels\\1.0.0-20240209.4\\lib/net6.0/System.Activities.ViewModels.dll",
-        "E:\\packages\\NuGet\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "E:\\packages\\NuGet\\system.io.pipelines\\4.7.1\\lib/netcoreapp3.0/System.IO.Pipelines.dll",
-        "E:\\packages\\NuGet\\uipath.codedworkflows\\23.10.4\\lib/net6.0/UiPath.CodedWorkflows.dll",
-        "E:\\packages\\NuGet\\uipath.opentelemetry.contracts\\2.1.3\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
-        "E:\\packages\\NuGet\\uipath.platform\\24.2.0\\lib/net6.0/UiPath.Platform.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities\\24.3.1\\lib/net6.0/UiPath.System.Activities.ViewModels.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime\\24.3.1\\lib/net6.0/UiPath.System.Activities.Package.Runtime.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.OrchestratorClient.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.System.Activities.Api.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.System.Activities.dll",
-        "E:\\packages\\NuGet\\uipath.telemetry.client\\2.1.3\\lib/netstandard2.0/TelemetryClient.dll"
+        "C:\\Users\\User\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\User\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\User\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20240209.4\\lib/net6.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\User\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.codedworkflows\\23.10.4\\lib/net6.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.1.3\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.platform\\24.2.0\\lib/net6.0/UiPath.Platform.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities\\24.3.1\\lib/net6.0/UiPath.System.Activities.ViewModels.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime\\24.3.1\\lib/net6.0/UiPath.System.Activities.Package.Runtime.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.System.Activities.Api.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib/net6.0/UiPath.System.Activities.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.telemetry.client\\2.1.3\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.system.activities\\24.3.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities\\24.3.1"
     }
   ],
   "Conflicts": [],
@@ -723,9 +723,9 @@
         "Version": "16.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\csvhelper\\16.0.0\\lib\\netstandard2.1\\CsvHelper.dll"
+        "C:\\Users\\User\\.nuget\\packages\\csvhelper\\16.0.0\\lib\\netstandard2.1\\CsvHelper.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\csvhelper\\16.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\csvhelper\\16.0.0"
     },
     {
       "Package": {
@@ -733,9 +733,9 @@
         "Version": "2.4.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\netstandard2.0\\Microsoft.AspNet.SignalR.Client.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\netstandard2.0\\Microsoft.AspNet.SignalR.Client.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnet.signalr.client\\2.4.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
     },
     {
       "Package": {
@@ -743,9 +743,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Connections.Abstractions.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -753,9 +753,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.Http.Connections.Client.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.client\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
     },
     {
       "Package": {
@@ -763,9 +763,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Connections.Common.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.http.connections.common\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
     },
     {
       "Package": {
@@ -773,9 +773,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Features.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.Http.Features.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.http.features\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
     },
     {
       "Package": {
@@ -783,9 +783,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
     },
     {
       "Package": {
@@ -793,9 +793,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.1\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
     },
     {
       "Package": {
@@ -803,9 +803,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Common.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Common.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.common\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
     },
     {
       "Package": {
@@ -813,9 +813,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
     },
     {
       "Package": {
@@ -823,7 +823,7 @@
         "Version": "3.3.3"
       },
       "Assemblies": [],
-      "Path": "E:\\packages\\NuGet\\microsoft.codeanalysis.analyzers\\3.3.3"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3"
     },
     {
       "Package": {
@@ -831,9 +831,9 @@
         "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.codeanalysis.common\\4.5.0-2.22527.10"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10"
     },
     {
       "Package": {
@@ -841,9 +841,9 @@
         "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10"
     },
     {
       "Package": {
@@ -851,9 +851,9 @@
         "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10"
     },
     {
       "Package": {
@@ -861,9 +861,9 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.csharp\\4.7.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.csharp\\4.7.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0"
     },
     {
       "Package": {
@@ -871,9 +871,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.configuration\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
     },
     {
       "Package": {
@@ -881,9 +881,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Abstractions.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Abstractions.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.configuration.abstractions\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -891,9 +891,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Binder.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Configuration.Binder.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.configuration.binder\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
     },
     {
       "Package": {
@@ -901,9 +901,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0"
     },
     {
       "Package": {
@@ -911,9 +911,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0"
     },
     {
       "Package": {
@@ -921,9 +921,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.logging\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Logging.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.logging\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
     },
     {
       "Package": {
@@ -931,9 +931,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.logging.abstractions\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
     },
     {
       "Package": {
@@ -941,9 +941,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.options\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.options\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
     },
     {
       "Package": {
@@ -951,9 +951,9 @@
         "Version": "3.1.6"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.extensions.primitives\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netcoreapp3.1\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.extensions.primitives\\3.1.6"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
     },
     {
       "Package": {
@@ -961,9 +961,9 @@
         "Version": "2.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.netcore.platforms\\2.0.0\\lib\\netstandard1.0\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\lib\\netstandard1.0\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.netcore.platforms\\2.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0"
     },
     {
       "Package": {
@@ -971,9 +971,9 @@
         "Version": "2.3.24"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.rest.clientruntime\\2.3.24\\lib\\netstandard2.0\\Microsoft.Rest.ClientRuntime.dll"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib\\netstandard2.0\\Microsoft.Rest.ClientRuntime.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.rest.clientruntime\\2.3.24"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24"
     },
     {
       "Package": {
@@ -981,9 +981,9 @@
         "Version": "10.3.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\microsoft.visualbasic\\10.3.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\microsoft.visualbasic\\10.3.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\microsoft.visualbasic\\10.3.0"
     },
     {
       "Package": {
@@ -991,9 +991,9 @@
         "Version": "13.0.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+        "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\newtonsoft.json\\13.0.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1"
     },
     {
       "Package": {
@@ -1001,9 +1001,9 @@
         "Version": "1.3.3"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\sharpziplib\\1.3.3\\lib\\netstandard2.1\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\User\\.nuget\\packages\\sharpziplib\\1.3.3\\lib\\netstandard2.1\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\sharpziplib\\1.3.3"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\sharpziplib\\1.3.3"
     },
     {
       "Package": {
@@ -1011,9 +1011,9 @@
         "Version": "1.0.0-20240209.4"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.activities.viewmodels\\1.0.0-20240209.4\\lib\\net6.0\\System.Activities.ViewModels.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20240209.4\\lib\\net6.0\\System.Activities.ViewModels.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.activities.viewmodels\\1.0.0-20240209.4"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20240209.4"
     },
     {
       "Package": {
@@ -1021,9 +1021,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.collections.immutable\\6.0.0\\lib\\net6.0\\System.Collections.Immutable.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.collections.immutable\\6.0.0\\lib\\net6.0\\System.Collections.Immutable.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.collections.immutable\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.collections.immutable\\6.0.0"
     },
     {
       "Package": {
@@ -1031,9 +1031,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.diagnostics.diagnosticsource\\6.0.0\\lib\\net6.0\\System.Diagnostics.DiagnosticSource.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\lib\\net6.0\\System.Diagnostics.DiagnosticSource.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.diagnostics.diagnosticsource\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0"
     },
     {
       "Package": {
@@ -1041,9 +1041,9 @@
         "Version": "3.0.10"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.io.abstractions\\3.0.10\\lib\\netstandard2.0\\System.IO.Abstractions.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\netstandard2.0\\System.IO.Abstractions.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.io.abstractions\\3.0.10"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.io.abstractions\\3.0.10"
     },
     {
       "Package": {
@@ -1051,9 +1051,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.io.filesystem.accesscontrol\\4.5.0\\runtimes\\win\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.io.filesystem.accesscontrol\\4.5.0\\runtimes\\win\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.io.filesystem.accesscontrol\\4.5.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.io.filesystem.accesscontrol\\4.5.0"
     },
     {
       "Package": {
@@ -1061,9 +1061,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.io.pipelines\\4.7.1\\lib\\netcoreapp3.0\\System.IO.Pipelines.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netcoreapp3.0\\System.IO.Pipelines.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.io.pipelines\\4.7.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\4.7.1"
     },
     {
       "Package": {
@@ -1071,9 +1071,9 @@
         "Version": "4.5.5"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.memory\\4.5.5\\lib\\netcoreapp2.1\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.5\\lib\\netcoreapp2.1\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\system.memory\\4.5.5"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.5"
     },
     {
       "Package": {
@@ -1081,9 +1081,9 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.reflection.metadata\\5.0.0\\lib\\netstandard2.0\\System.Reflection.Metadata.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\lib\\netstandard2.0\\System.Reflection.Metadata.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.reflection.metadata\\5.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.reflection.metadata\\5.0.0"
     },
     {
       "Package": {
@@ -1091,9 +1091,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.runtime.compilerservices.unsafe\\6.0.0\\lib\\net6.0\\System.Runtime.CompilerServices.Unsafe.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\lib\\net6.0\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.runtime.compilerservices.unsafe\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0"
     },
     {
       "Package": {
@@ -1101,9 +1101,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.security.accesscontrol\\4.5.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Security.AccessControl.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Security.AccessControl.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.security.accesscontrol\\4.5.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\4.5.0"
     },
     {
       "Package": {
@@ -1111,9 +1111,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.security.principal.windows\\4.5.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Security.Principal.Windows.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Security.Principal.Windows.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.security.principal.windows\\4.5.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\4.5.0"
     },
     {
       "Package": {
@@ -1121,9 +1121,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.text.encoding.codepages\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Text.Encoding.CodePages.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Text.Encoding.CodePages.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.text.encoding.codepages\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0"
     },
     {
       "Package": {
@@ -1131,9 +1131,9 @@
         "Version": "4.7.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.threading.channels\\4.7.1\\lib\\netcoreapp3.0\\System.Threading.Channels.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\netcoreapp3.0\\System.Threading.Channels.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.threading.channels\\4.7.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.threading.channels\\4.7.1"
     },
     {
       "Package": {
@@ -1141,9 +1141,9 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.threading.tasks.dataflow\\6.0.0\\lib\\net6.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\lib\\net6.0\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\system.threading.tasks.dataflow\\6.0.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0"
     },
     {
       "Package": {
@@ -1151,9 +1151,9 @@
         "Version": "4.5.4"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.threading.tasks.extensions\\4.5.4\\lib\\netcoreapp2.1\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\netcoreapp2.1\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\system.threading.tasks.extensions\\4.5.4"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
     },
     {
       "Package": {
@@ -1161,9 +1161,9 @@
         "Version": "4.5.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\system.valuetuple\\4.5.0\\lib\\netcoreapp2.0\\_._"
+        "C:\\Users\\User\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\netcoreapp2.0\\_._"
       ],
-      "Path": "E:\\packages\\NuGet\\system.valuetuple\\4.5.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\system.valuetuple\\4.5.0"
     },
     {
       "Package": {
@@ -1171,9 +1171,9 @@
         "Version": "23.10.4"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.codedworkflows\\23.10.4\\lib\\net6.0\\UiPath.CodedWorkflows.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.codedworkflows\\23.10.4\\lib\\net6.0\\UiPath.CodedWorkflows.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.codedworkflows\\23.10.4"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.codedworkflows\\23.10.4"
     },
     {
       "Package": {
@@ -1181,9 +1181,9 @@
         "Version": "2.1.3"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.opentelemetry.contracts\\2.1.3\\lib\\netstandard2.0\\UiPath.OpenTelemetry.Contracts.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.1.3\\lib\\netstandard2.0\\UiPath.OpenTelemetry.Contracts.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.opentelemetry.contracts\\2.1.3"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.1.3"
     },
     {
       "Package": {
@@ -1191,9 +1191,9 @@
         "Version": "24.2.0"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.platform\\24.2.0\\lib\\net6.0\\UiPath.Platform.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.platform\\24.2.0\\lib\\net6.0\\UiPath.Platform.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.platform\\24.2.0"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.platform\\24.2.0"
     },
     {
       "Package": {
@@ -1201,9 +1201,9 @@
         "Version": "24.3.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.system.activities\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.ViewModels.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.ViewModels.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.system.activities\\24.3.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities\\24.3.1"
     },
     {
       "Package": {
@@ -1211,9 +1211,9 @@
         "Version": "24.3.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.Package.Runtime.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.Package.Runtime.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.system.activities.runtime\\24.3.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime\\24.3.1"
     },
     {
       "Package": {
@@ -1221,11 +1221,11 @@
         "Version": "24.3.1"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.OrchestratorClient.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.Api.dll",
-        "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.Api.dll",
+        "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1\\lib\\net6.0\\UiPath.System.Activities.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.system.activities.runtime.portable\\24.3.1"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.system.activities.runtime.portable\\24.3.1"
     },
     {
       "Package": {
@@ -1233,9 +1233,9 @@
         "Version": "2.1.3"
       },
       "Assemblies": [
-        "E:\\packages\\NuGet\\uipath.telemetry.client\\2.1.3\\lib\\netstandard2.0\\TelemetryClient.dll"
+        "C:\\Users\\User\\.nuget\\packages\\uipath.telemetry.client\\2.1.3\\lib\\netstandard2.0\\TelemetryClient.dll"
       ],
-      "Path": "E:\\packages\\NuGet\\uipath.telemetry.client\\2.1.3"
+      "Path": "C:\\Users\\User\\.nuget\\packages\\uipath.telemetry.client\\2.1.3"
     }
   ]
 }
