@@ -30,10 +30,10 @@
       "DataSourceItems": null
     },
     {
-      "Name": "DissimilarSymbolList",
-      "DisplayName": "DissimilarSymbolList",
+      "Name": "JWDistance",
+      "DisplayName": "JWDistance",
       "Category": null,
-      "Tooltip": "List of symbols that are different between two strings",
+      "Tooltip": "Jaro-Winkler Distance output as double. A higher Jaro-Winkler distance (closer to 1) means the strings are more similar, especially if they share a common prefix.\nA lower Jaro-Winkler distance (closer to 0) means the strings are less similar.",
       "Placeholder": null,
       "Widget": null,
       "IsRequired": false,
@@ -42,10 +42,10 @@
       "DataSourceItems": null
     },
     {
-      "Name": "JWDistance",
-      "DisplayName": "JWDistance",
+      "Name": "DissimilarSymbolDictionary",
+      "DisplayName": "DissimilarSymbolDictionary",
       "Category": null,
-      "Tooltip": "Jaro-Winkler Distance output as double. A higher Jaro-Winkler distance (closer to 1) means the strings are more similar, especially if they share a common prefix.\nA lower Jaro-Winkler distance (closer to 0) means the strings are less similar.",
+      "Tooltip": "Dictionary of dissimilarities. Keys are Int32 and define position that uses one-based indexing (position 1 key is 1, 2 is 2 etc), and Values are the dissimilar symbol as String in that position.",
       "Placeholder": null,
       "Widget": null,
       "IsRequired": false,

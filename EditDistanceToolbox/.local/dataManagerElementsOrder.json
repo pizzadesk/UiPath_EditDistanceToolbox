@@ -12,10 +12,10 @@
       "Path": "Hamming_Distance.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DissimilarSymbolStringFromList&Sequence_1",
-        "DissimilarSymbolList&Sequence_1"
+        "ExceptionOutput&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "DissimilarSymbolDictionary",
         "String1",
         "String2",
         "HDistance"
@@ -26,7 +26,9 @@
     {
       "Path": "Longest_Common_Subsequence.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "ExceptionOutput&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "String1",
         "String2",
@@ -40,12 +42,12 @@
       "Path": "Jaro_Winkler_Distance.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DissimilarSymbolStringFromList&Sequence_1"
+        "ExceptionOutput&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "DissimilarSymbolDictionary",
         "String1",
         "String2",
-        "DissimilarSymbolList",
         "JWDistance"
       ],
       "ConstantsSectionElementsOrder": null,
@@ -54,7 +56,9 @@
     {
       "Path": "Levenshtein_Distance.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "ExceptionOutput&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "String2",
         "MinimumSimilarity",
@@ -69,12 +73,12 @@
       "Path": "Jaro_Distance.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DissimilarSymbolStringFromList&Sequence_1"
+        "ExceptionOutput&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "DissimilarSymbolDictionary",
         "String2",
         "String1",
-        "DissimilarSymbolList",
         "JDistance"
       ],
       "ConstantsSectionElementsOrder": null,
