@@ -2,7 +2,7 @@
 
 ## Overview
 
-This library offers a set of UiPath workflows that use `Invoke Code` activities to calculate string distances and similarities. It supports the following algorithms:
+This library offers a set of UiPath workflows that use `Invoke Code` and regular `Activities` to calculate string distances and similarities. It supports the following algorithms:
 
 - **Levenshtein Distance**  
 - **Hamming Distance**  
