@@ -1,0 +1,127 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.String1="Cabbage" this:Main.String2="Cabinet" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property sap2010:Annotation.AnnotationText="First input string. This tool is designed for applications where prefixes are significant, like comparing first names, surnames, or other identifier strings." Name="String1" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Second input string. This tool is designed for applications where prefixes are significant, like comparing first names, surnames, or other identifier strings." Name="String2" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Jaro-Winkler Distance output as double. A higher Jaro-Winkler distance (closer to 1) means the strings are more similar, especially if they share a common prefix.&#xA;A lower Jaro-Winkler distance (closer to 0) means the strings are less similar." Name="JWDistance" Type="OutArgument(x:Double)" />
+    <x:Property sap2010:Annotation.AnnotationText="Dictionary of dissimilarities. Keys are Int32 and define position that uses one-based indexing (position 1 key is 1, 2 is 2 etc), and Values are the dissimilar symbol as String in that position." Name="DissimilarSymbolDictionary" Type="OutArgument(scg:Dictionary(x:Int32, x:String))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1872,1492</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Designed for applications where prefixes are significant, like comparing first names, surnames, or other identifier strings.&#xA;&#xA;A higher Jaro-Winkler distance (closer to 1) means the strings are more similar, especially if they share a common prefix.&#xA;A lower Jaro-Winkler distance (closer to 0) means the strings are less similar." DisplayName="Jaro_Winkler_Distance" sap:VirtualizedContainerService.HintSize="608,1427" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ExceptionOutput" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Jaro_Winkler_Distance: START&quot;]" />
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Input strings (these should be defined as arguments in UiPath)&#xD;&#xA;Dim s As String = s1&#xD;&#xA;Dim t As String = s2&#xD;&#xA;Dim jaroWinkler As Double = 0.0&#xD;&#xA;&#xD;&#xA;' Initialize the lengths of the strings&#xD;&#xA;Dim n As Integer = s.Length&#xD;&#xA;Dim m As Integer = t.Length&#xD;&#xA;&#xD;&#xA;' Output argument for exception messages&#xD;&#xA;Dim exceptionMessage As String = String.Empty&#xD;&#xA;&#xD;&#xA;Try&#xD;&#xA;    ' Initialize the dictionary to store dissimilar symbols and their positions&#xD;&#xA;    Dim dissimilarSymbols As New Dictionary(Of Integer, String)&#xD;&#xA;&#xD;&#xA;    ' Edge case for empty strings&#xD;&#xA;    If n = 0 AndAlso m = 0 Then&#xD;&#xA;        Console.WriteLine(&quot;Both strings are empty. Jaro-Winkler distance is 1.&quot;)&#xD;&#xA;        JWDistance = Math.Round(1.0, 2)&#xD;&#xA;    Else&#xD;&#xA;        ' Determine the matching window size&#xD;&#xA;        Dim matchDistance As Integer = CInt(Math.Floor(Math.Max(n, m) / 2.0) - 1)&#xD;&#xA;&#xD;&#xA;        ' Arrays to track matching characters&#xD;&#xA;        Dim s1Matches(n - 1) As Boolean&#xD;&#xA;        Dim s2Matches(m - 1) As Boolean&#xD;&#xA;&#xD;&#xA;        ' Count of matching characters and transpositions&#xD;&#xA;        Dim matches As Integer = 0&#xD;&#xA;        Dim transpositions As Integer = 0&#xD;&#xA;&#xD;&#xA;        ' Compute matches&#xD;&#xA;        For i As Integer = 0 To n - 1&#xD;&#xA;            Dim startMatch As Integer = Math.Max(0, i - matchDistance)&#xD;&#xA;            Dim endMatch As Integer = Math.Min(i + matchDistance + 1, m)&#xD;&#xA;&#xD;&#xA;            For j As Integer = startMatch To endMatch - 1&#xD;&#xA;                If s2Matches(j) Then Continue For&#xD;&#xA;                If s(i) &lt;&gt; t(j) Then Continue For&#xD;&#xA;                s1Matches(i) = True&#xD;&#xA;                s2Matches(j) = True&#xD;&#xA;                matches += 1&#xD;&#xA;                Exit For&#xD;&#xA;            Next&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        ' Compute transpositions&#xD;&#xA;        Dim k As Integer = 0&#xD;&#xA;        For i As Integer = 0 To n - 1&#xD;&#xA;            If Not s1Matches(i) Then Continue For&#xD;&#xA;            While Not s2Matches(k)&#xD;&#xA;                k += 1&#xD;&#xA;            End While&#xD;&#xA;            If s(i) &lt;&gt; t(k) Then&#xD;&#xA;                transpositions += 1&#xD;&#xA;            End If&#xD;&#xA;            k += 1&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        transpositions \= 2&#xD;&#xA;&#xD;&#xA;        ' Calculate Jaro distance&#xD;&#xA;        Dim jaro As Double = 0.0&#xD;&#xA;        If matches &lt;&gt; 0 Then&#xD;&#xA;            jaro = ((matches / CDbl(n)) + (matches / CDbl(m)) + ((matches - transpositions) / matches)) / 3.0&#xD;&#xA;        End If&#xD;&#xA;&#xD;&#xA;        ' Calculate common prefix length&#xD;&#xA;        Dim prefixLength As Integer = 0&#xD;&#xA;        For i As Integer = 0 To Math.Min(4, Math.Min(n, m)) - 1&#xD;&#xA;            If s(i) = t(i) Then&#xD;&#xA;                prefixLength += 1&#xD;&#xA;            Else&#xD;&#xA;                Exit For&#xD;&#xA;            End If&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        ' Calculate Jaro-Winkler distance&#xD;&#xA;        jaroWinkler = jaro + (prefixLength * 0.1 * (1 - jaro))&#xD;&#xA;&#xD;&#xA;        ' Output the Jaro-Winkler distance&#xD;&#xA;        Console.WriteLine(&quot;Jaro-Winkler distance computed: &quot; &amp; Math.Round(jaroWinkler, 2))&#xD;&#xA;&#xD;&#xA;        ' Identify dissimilar symbols and their positions&#xD;&#xA;        For i As Integer = 0 To Math.Min(n, m) - 1&#xD;&#xA;            If s(i) &lt;&gt; t(i) Then&#xD;&#xA;                dissimilarSymbols.Add(i + 1, s(i).ToString())&#xD;&#xA;            End If&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        ' Output dissimilar symbols and their positions&#xD;&#xA;        If dissimilarSymbols.Count &gt; 0 Then&#xD;&#xA;            Console.WriteLine(&quot;Dissimilar Symbols and Positions:&quot;)&#xD;&#xA;            For Each kvp In dissimilarSymbols&#xD;&#xA;                Console.WriteLine($&quot;Position: {kvp.Key}, Symbol: {kvp.Value}&quot;)&#xD;&#xA;            Next&#xD;&#xA;        Else&#xD;&#xA;            Console.WriteLine(&quot;No dissimilar symbols found.&quot;)&#xD;&#xA;        End If&#xD;&#xA;    End If&#xD;&#xA;&#xD;&#xA;    ' Assign the results to the output arguments (defined in UiPath)&#xD;&#xA;    DissSymbols = dissimilarSymbols&#xD;&#xA;    JWDistance = Math.Round(jaroWinkler, 2)&#xD;&#xA;&#xD;&#xA;Catch ex As Exception&#xD;&#xA;    ' Handle exceptions by setting the output argument&#xD;&#xA;    exceptionMessage = ex.Message&#xD;&#xA;    Console.WriteLine($&quot;Exception: {exceptionMessage}&quot;)&#xD;&#xA;End Try&#xD;&#xA;&#xD;&#xA;' Assign the exception message to the output argument (defined in UiPath)&#xD;&#xA;ExceptionOutput = exceptionMessage" DisplayName="Execute Jaro-Winkler Distance calculation with VB.net" sap:VirtualizedContainerService.HintSize="546,277" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="s1">[String1]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="s2">[String2]</InArgument>
+        <OutArgument x:TypeArguments="scg:Dictionary(x:Int32, x:String)" x:Key="DissSymbols">[DissimilarSymbolDictionary]</OutArgument>
+        <OutArgument x:TypeArguments="x:Double" x:Key="JWDistance">[JWDistance]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="ExceptionOutput">[ExceptionOutput]</OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <If Condition="[not String.IsNullOrEmpty(ExceptionOutput)]" DisplayName="Did the code encounter an exception?" sap:VirtualizedContainerService.HintSize="546,623" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Exception in code block" sap:VirtualizedContainerService.HintSize="512,201" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Throw Exception="[new Exception(ExceptionOutput)]" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="Throw_1" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="No exception in code block" sap:VirtualizedContainerService.HintSize="512,252" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;Jaro Distance &quot;+String1+&quot; and &quot;+String2+&quot; is &quot;+JWDistance.ToString]" />
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Jaro_Winkler_Distance: END&quot;]" />
+  </Sequence>
+</Activity>

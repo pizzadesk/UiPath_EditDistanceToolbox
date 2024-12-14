@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.String1="kitten" this:Main.String2="Splitting" this:Main.MinimumSimilarity="100" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property sap2010:Annotation.AnnotationText="First input string" Name="String1" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Second input string" Name="String2" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Numeric value of Levenshtein Distance" Name="LevenshteinDistance" Type="OutArgument(x:Int32)" />
+    <x:Property sap2010:Annotation.AnnotationText="Output True/False value based on Levenshtein Distance calculation, taking MinimumSimilarity into account" Name="IsSimilar" Type="OutArgument(x:Boolean)" />
+    <x:Property sap2010:Annotation.AnnotationText="Minimum accepted similarity between 2 strings on a range of 0-100 (0 being similarity not important, and 100 being desire maximum similarity), will be taken into account for calculating IsSimilar boolean out-argument" Name="MinimumSimilarity" Type="InArgument(x:Int32)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1872,1582</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Levenshtein Distance measures how different two strings are by counting the minimum number of edits (insertions, deletions, or substitutions) needed to transform one string into the other.&#xA;&#xA;How the Code Works:&#xA;1. Input Strings in arguments String1 and String2&#xA;&#xA;2. Define MinimumSimilarity argument value on a range from 0 to 100. It will be calculated as % of similarity between two strings.&#xA;&#xA;3. Use output variable LevenshteinDistance for numeric value of Levenshtein Distance&#xA;&#xA;4. Use output variable IsSimilar for a True/False result based on chosen MinimumSimilarity" DisplayName="Levenshtein Distance" sap:VirtualizedContainerService.HintSize="608,1517" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ExceptionOutput" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Levenshtein Distance: START&quot;]" />
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Input strings and minimum similarity (these should be defined as arguments in UiPath)&#xA;Dim s As String = s1&#xA;Dim t As String = s2&#xA;Dim minimumSimilarity As Double = minSimilarity&#xA;&#xA;' Initialize the distance variable&#xA;Dim distance As Integer&#xA;Dim exceptionMessage As String = String.Empty&#xA;&#xA;Try&#xA;    ' Initialize the lengths of the strings&#xA;    Dim n As Integer = s.Length&#xA;    Dim m As Integer = t.Length&#xA;&#xA;    ' Edge cases&#xA;    If n = 0 Then&#xA;        Console.WriteLine(&quot;First string is empty, returning length of second string.&quot;)&#xA;        distance = m&#xA;        Console.WriteLine(&quot;Levenshtein Distance: &quot; &amp; distance)&#xA;        isSimilar = (100 &gt;= minimumSimilarity)&#xA;        Result = distance&#xA;        Return&#xA;    End If&#xA;&#xA;    If m = 0 Then&#xA;        Console.WriteLine(&quot;Second string is empty, returning length of first string.&quot;)&#xA;        distance = n&#xA;        Console.WriteLine(&quot;Levenshtein Distance: &quot; &amp; distance)&#xA;        isSimilar = (100 &gt;= minimumSimilarity)&#xA;        Result = distance&#xA;        Return&#xA;    End If&#xA;&#xA;    ' Initialize the distance matrix&#xA;    Dim d(n + 1, m + 1) As Integer&#xA;&#xA;    ' Set up the distance matrix&#xA;    For i As Integer = 0 To n&#xA;        d(i, 0) = i&#xA;    Next&#xA;&#xA;    For j As Integer = 0 To m&#xA;        d(0, j) = j&#xA;    Next&#xA;&#xA;    ' Compute the Levenshtein distance&#xA;    For i As Integer = 1 To n&#xA;        For j As Integer = 1 To m&#xA;            Dim cost As Integer = If(t(j - 1) = s(i - 1), 0, 1)&#xA;            d(i, j) = Math.Min(Math.Min(d(i - 1, j) + 1, d(i, j - 1) + 1), d(i - 1, j - 1) + cost)&#xA;        Next&#xA;    Next&#xA;&#xA;    ' Output and assign the results&#xA;    Console.WriteLine(&quot;Levenshtein distance computed.&quot;)&#xA;    distance = d(n, m)&#xA;    Console.WriteLine(&quot;Levenshtein Distance: &quot; &amp; distance)&#xA;&#xA;    ' Calculate the similarity percentage&#xA;    Dim maxLen As Integer = Math.Max(n, m)&#xA;    Dim similarity As Double = 1.0 - (CDbl(distance) / CDbl(maxLen))&#xA;    Dim similarityPercent As Double = similarity * 100&#xA;&#xA;    ' Output the similarity percentage rounded to 2 decimal places&#xA;    Console.WriteLine(&quot;Similarity: &quot; &amp; Math.Round(similarityPercent, 2) &amp; &quot;%&quot;)&#xA;&#xA;    ' Check if the similarity meets the minimum similarity threshold&#xA;    If similarityPercent &gt;= minimumSimilarity Then&#xA;        Console.WriteLine(&quot;The strings are similar enough based on the minimum similarity threshold.&quot;)&#xA;        isSimilar = True&#xA;    Else&#xA;        Console.WriteLine(&quot;The strings are not similar enough based on the minimum similarity threshold.&quot;)&#xA;        isSimilar = False&#xA;    End If&#xA;&#xA;    Result = distance&#xA;&#xA;Catch ex As Exception&#xA;    ' Handle any exceptions&#xA;    exceptionMessage = ex.Message&#xA;    Console.WriteLine(&quot;An error occurred: &quot; &amp; exceptionMessage)&#xA;    Result = -1 ' Optionally set a default or error value for Result&#xA;Finally&#xA;    ' Assign exception message to the output argument defined in UiPath&#xA;    ExceptionOutput = exceptionMessage&#xA;End Try" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="546,277" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="s1">[String1]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="s2">[String2]</InArgument>
+        <OutArgument x:TypeArguments="x:Int32" x:Key="Result">[LevenshteinDistance]</OutArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="minSimilarity">[MinimumSimilarity]</InArgument>
+        <OutArgument x:TypeArguments="x:Boolean" x:Key="isSimilar">[IsSimilar]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="ExceptionOutput">[ExceptionOutput]</OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <If Condition="[not String.IsNullOrEmpty(ExceptionOutput)]" DisplayName="Did the code encounter an exception?" sap:VirtualizedContainerService.HintSize="546,623" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Exception in code block" sap:VirtualizedContainerService.HintSize="512,201" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Throw Exception="[new Exception(ExceptionOutput)]" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="Throw_1" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="No exception in code block" sap:VirtualizedContainerService.HintSize="512,252" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;Levenshtein Distance of &quot;+String1+&quot; and &quot;+String2+&quot; is &quot;+LevenshteinDistance.ToString+Environment.NewLine.ToString+&#xA;&quot;Minimum string similarity in %: &quot;+MinimumSimilarity.ToString+Environment.NewLine.ToString+&#xA;&quot;Strings considered similar: &quot;+IsSimilar.ToString]" />
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Levenshtein Distance: END&quot;]" />
+  </Sequence>
+</Activity>

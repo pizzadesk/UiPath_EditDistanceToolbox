@@ -1,0 +1,52 @@
+{
+  "name": "EditDistanceToolbox",
+  "projectId": "7244fbf8-b796-485a-8912-4a6671cc9ed0",
+  "description": "The library provides a collection of UiPath workflows utilizing Invoke Code activities to perform four string distance calculations: Levenshtein Distance, Hamming Distance, Longest Common Subsequence (LCS), and Jaro Distance. Each workflow is designed to accept two input strings and output the calculated distance or similarity score. This library is ideal for applications requiring string comparison, such as data validation, error correction, and duplicate detection in databases.",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "24.3.1"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.4.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/_2c763bb0-259b-470e-b657-635f14a9242c.jpg"
+  },
+  "targetFramework": "Portable"
+}

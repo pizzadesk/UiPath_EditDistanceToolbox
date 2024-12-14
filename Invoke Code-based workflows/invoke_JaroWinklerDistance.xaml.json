@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Jaro_Winkler_Distance",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "String1",
+      "DisplayName": "String1",
+      "Category": null,
+      "Tooltip": "First input string. This tool is designed for applications where prefixes are significant, like comparing first names, surnames, or other identifier strings.",
+      "Placeholder": "Cabbage",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "String2",
+      "DisplayName": "String2",
+      "Category": null,
+      "Tooltip": "Second input string. This tool is designed for applications where prefixes are significant, like comparing first names, surnames, or other identifier strings.",
+      "Placeholder": "Cabinet",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "JWDistance",
+      "DisplayName": "JWDistance",
+      "Category": null,
+      "Tooltip": "Jaro-Winkler Distance output as double. A higher Jaro-Winkler distance (closer to 1) means the strings are more similar, especially if they share a common prefix.\nA lower Jaro-Winkler distance (closer to 0) means the strings are less similar.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DissimilarSymbolDictionary",
+      "DisplayName": "DissimilarSymbolDictionary",
+      "Category": null,
+      "Tooltip": "Dictionary of dissimilarities. Keys are Int32 and define position that uses one-based indexing (position 1 key is 1, 2 is 2 etc), and Values are the dissimilar symbol as String in that position.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

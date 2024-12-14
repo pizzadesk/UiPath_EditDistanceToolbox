@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Damerau_Levenshtein_Distance",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "String1",
+      "DisplayName": "String1",
+      "Category": null,
+      "Tooltip": "First input string.  Especially effective for short strings.",
+      "Placeholder": "Gargoyle",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "String2",
+      "DisplayName": "String2",
+      "Category": null,
+      "Tooltip": "Second input string. Especially effective for short strings.",
+      "Placeholder": "Glagolus",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "JDistance",
+      "DisplayName": "JDistance",
+      "Category": null,
+      "Tooltip": "Jaro Distance as Double. A higher Jaro distance (closer to 1) means the strings are more similar.\nA lower Jaro distance (closer to 0) means the strings are less similar.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DissimilarSymbolDictionary",
+      "DisplayName": "DissimilarSymbolDictionary",
+      "Category": null,
+      "Tooltip": "Dictionary of dissimilarities. Keys are Int32 and define position that uses one-based indexing (position 1 key is 1, 2 is 2 etc), and Values are the dissimilar symbol as String in that position.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
